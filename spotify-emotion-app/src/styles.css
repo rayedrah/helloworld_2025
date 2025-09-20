@@ -1,0 +1,70 @@
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f7f7f8;
+}
+
+.app-container {
+    max-width: 720px;
+    margin: 24px auto;
+}
+
+.camera-area {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.video {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.scan-btn {
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer
+}
+
+.scan-btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed
+}
+
+.suggestion {
+    background: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-top: 12px
+}
+
+.track {
+    margin-top: 8px
+}
+
+.error {
+    color: #b00020
+}
+
+footer {
+    margin-top: 20px;
+    color: #666;
+}
+
+.loading {
+    display: inline-block;
+    margin-left: 8px
+}
